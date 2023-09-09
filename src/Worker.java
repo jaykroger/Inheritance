@@ -1,13 +1,13 @@
 public class Worker extends Person {
-    double hourlyPayRate;
+    private double hourlyPayRate;
 
-    // Constructor for Worker Object
+    // Constructor for Worker
     public Worker(String ID, String firstName, String lastName, String title, int yearOfBirth, int payRate) {
         super(ID, firstName, lastName, title, yearOfBirth);
         this.hourlyPayRate = payRate;
     }
 
-    // Getters and Setters for new attribute payRate
+    // Getters and Setters
     public double getHourlyPayRate() {
         return hourlyPayRate;
     }
@@ -51,29 +51,15 @@ public class Worker extends Person {
 
         if (hoursWorked > 40) {
             System.out.println("Number of regular hours: 40");
-            System.out.println("Total regular pay: " + totalRegularPay);
+            System.out.println("Total regular pay: $" + totalRegularPay);
             System.out.println("Number of overtime hours: " + overtimeHours);
-            System.out.println("Total overtime pay: " + totalOvertimePay);
+            System.out.println("Total overtime pay: $" + totalOvertimePay);
         }
         else {
             System.out.println("Number of regular hours: " + hoursWorked);
-            System.out.println("Total regular pay: " + hoursWorked * getHourlyPayRate());
+            System.out.println("Total regular pay: $" + hoursWorked * getHourlyPayRate());
             System.out.println("Number of overtime hours: 0");
             System.out.println("Total overtime pay: 0");
         }
-    }
-
-
-    @Override
-    public String toString() {
-        return "Worker{" +
-                "hourlyPayRate=" + hourlyPayRate +
-                ", ID='" + ID + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", title='" + title + '\'' +
-                ", yearOfBirth=" + yearOfBirth +
-                ", c=" + c +
-                '}';
     }
 }
