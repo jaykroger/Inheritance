@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14327014-d7d5-40f6-aaca-3ecefaf228ce" name="Changes" comment="Created getWeeklyPay and displayWeeklyPay methods for Worker.java">
-      <change afterPath="$PROJECT_DIR$/Test/WorkerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SalaryWorker.java" afterDir="false" />
+    <list default="true" id="14327014-d7d5-40f6-aaca-3ecefaf228ce" name="Changes" comment="Added SalaryWorker.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InheritanceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694297746136</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added SalaryWorker.java">
+      <created>1694299330292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694299330292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created getWeeklyPay and displayWeeklyPay methods for Worker.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created getWeeklyPay and displayWeeklyPay methods for Worker.java" />
+    <MESSAGE value="Added SalaryWorker.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SalaryWorker.java" />
   </component>
 </project>
