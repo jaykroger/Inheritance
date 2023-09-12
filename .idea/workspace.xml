@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14327014-d7d5-40f6-aaca-3ecefaf228ce" name="Changes" comment="Started loop to print pay period table">
+    <list default="true" id="14327014-d7d5-40f6-aaca-3ecefaf228ce" name="Changes" comment="Created and tested pay table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/SalaryWorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/SalaryWorkerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/WorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/WorkerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InheritanceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694448283895</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created and tested pay table">
+      <created>1694451711296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694451711296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +117,7 @@
     <MESSAGE value="Created getWeeklyPay and displayWeeklyPay methods for Worker.java" />
     <MESSAGE value="Added SalaryWorker.java" />
     <MESSAGE value="Started loop to print pay period table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started loop to print pay period table" />
+    <MESSAGE value="Created and tested pay table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created and tested pay table" />
   </component>
 </project>

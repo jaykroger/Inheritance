@@ -17,34 +17,12 @@ public class InheritanceDemo {
         // Variable initialization for table header
         int payPeriod = 1;
         String tableHeader = "ID#" + "      " + "First Name" + "     " + "Last Name" + "    " + "Hours" + "     " + "Pay";
-        String headerSeperator = "===================================================";
+        String headerSeperator = "=====================================================";
 
-        System.out.println(tableHeader);
-        System.out.println(headerSeperator);
-        int hoursWorked = 40;
 
-        for (Worker worker : workers)
-        {
-            System.out.printf("%-10s", worker.getID());
-            System.out.printf("%-14s", worker.getFirstName());
-            System.out.printf("%-14s", worker.getLastName());
-            System.out.printf("%-8s", hoursWorked);
-            if (worker instanceof SalaryWorker)
-            {
-                double weeklySalary = ((SalaryWorker) worker).calculateWeeklyPay();
-                System.out.printf("%-4.2f", weeklySalary);
-            }
-            else
-            {
-                System.out.printf("%-4.2f", worker.calculateWeeklyPay(hoursWorked));
-            }
 
-            System.out.println();
-        }
-        /* while (payPeriod != 3) {
-
+        while (payPeriod < 4) {
             int hoursWorked;
-
             if (payPeriod == 2) {
                 hoursWorked = 50;
             }
@@ -53,12 +31,32 @@ public class InheritanceDemo {
             }
 
             System.out.println();
-            System.out.println("Pay Period " + payPeriod + ":");
+            System.out.println("Pay Period " + payPeriod + ": ");
             System.out.println(tableHeader);
             System.out.println(headerSeperator);
-            payPeriod++;
-        } */
 
+        for (Worker worker : workers)
+        {
+            System.out.printf("%-10s", worker.getID());
+            System.out.printf("%-14s", worker.getFirstName());
+            System.out.printf("%-14s", worker.getLastName());
+            System.out.printf("%-8s", hoursWorked);
 
+                if (worker instanceof SalaryWorker)
+                {
+                    double weeklySalary = ((SalaryWorker) worker).calculateWeeklyPay();
+                    System.out.printf("%-4.2f", weeklySalary);
+                }
+                else
+                {
+                    System.out.printf("%-4.2f", worker.calculateWeeklyPay(hoursWorked));
+                }
+                System.out.println();
+            }
+
+        System.out.println();
+        payPeriod++;
+
+        }
     }
 }
